@@ -1,0 +1,13 @@
+{
+  "frontend/src/App.tsx": "Main application component that sets up ThemeProvider, renders Header, UserAgentGenerator, Footer, and Toaster for notifications.",
+  "frontend/src/components/Header.tsx": "Header component with app title, description in Bengali, and install button that triggers PWA installation prompt using beforeinstallprompt event.",
+  "frontend/src/components/Footer.tsx": "Footer component with copyright notice, caffeine.ai attribution with heart icon, and credits text \"Credits 114 baranor opaiy\" displayed beneath.",
+  "frontend/src/components/UserAgentGenerator.tsx": "Main generator component with expandable device/platform selection, country dropdown, search/filter, export functionality, enhanced APKMirror synchronization status banner showing real-time version updates with visual indicators (badges, icons), displays data source availability and last updated timestamp in Bengali.",
+  "frontend/src/lib/userAgentGenerator.ts": "Core user-agent generation logic enhanced with multi-source dynamic browser version data support (StatCounter, APKMirror, Browser-Update.org), prioritizing APKMirror for app-specific (Facebook, Instagram) platform versions, generating realistic user-agent strings with comprehensive metadata across multiple device types.",
+  "frontend/src/index.css": "Global styles with custom OKLCH color system featuring purple/violet theme for both light and dark modes, plus custom animations.",
+  "frontend/src/hooks/useQueries.ts": "React Query hook for fetching unified browser version data from backend with enhanced APKMirror parsing, includes VersionDataStatus interface for tracking data source availability and real-time sync status, implements automatic refetch every hour for real-time updates.",
+  "frontend/public/manifest.json": "Web App Manifest file defining PWA configuration with Bengali app name, icons, theme colors, and standalone display mode for installable app experience.",
+  "frontend/public/sw.js": "Service Worker implementing cache-first strategy for offline functionality, precaching static assets, and runtime caching of dynamic resources.",
+  "frontend/index.html": "HTML entry point with PWA meta tags, manifest link, theme color, and Bengali language attribute for proper PWA support.",
+  "frontend/src/main.tsx": "Application entry point with React setup, providers, and service worker registration for PWA functionality."
+}
